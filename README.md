@@ -57,7 +57,7 @@ La arquitectura de SignApp se divide en módulos interconectados:
 
 ![Diagrama de Diseño Funcional](./assets/diagrama_funcional.png)
 
-*Figura: Diagrama de bloques de los módulos de captura, procesamiento e inferencia.
+*Diagrama de bloques de los módulos de captura, procesamiento e inferencia.*
 
 ---
 
@@ -72,7 +72,7 @@ La arquitectura de SignApp se divide en módulos interconectados:
 
 ![SignGlasses Model 2](./assets/signglasses_m2.png)
 
-*Figura: Prototipo “SignGlasses Model 2” | Fuente: Elaboración propia - SolidWorks.*
+*Prototipo “SignGlasses Model 2” | Fuente: Elaboración propia - SolidWorks.*
 
 ### SignApp (móvil)
 
