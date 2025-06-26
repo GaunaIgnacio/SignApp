@@ -1,3 +1,5 @@
+![FI logo](./assets/fi_logo.png)
+
 # SignApp
 
 “SignApp” es una aplicación móvil desarrollada en el marco de la Práctica Profesional Supervisada de Ingeniería, que ofrece interpretación bidireccional automática entre la Lengua de Señas Argentina (LSA) y el lenguaje oral, sin requerir hardware adicional. Su objetivo es fomentar la inclusión de la comunidad sorda en diversos ámbitos mediante tecnologías de visión por computadora, inteligencia artificial y procesamiento de señales.
@@ -89,6 +91,23 @@ La arquitectura de SignApp se divide en módulos interconectados:
 * **NLP:** Corrección gramatical y segmentación de oraciones para salida coherente.
 * **TTS:** Text-to-Speech nativo de Android con gestión de cola y parámetros dinámicos de voz, manteniendo latencia <300 ms.
 
+---
+
+## ▶️ Uso
+
+### APK Desarrollador
+
+* **Captura de señas:** Graba nuevas secuencias y etiqueta manualmente.
+* **Entrenamiento local:** Ejecuta scripts de Python (`train.py`) con opciones de fine-tuning y exporta modelos cuantizados.
+* **Ajuste de parámetros:** Modifica umbrales de confianza, tasas de muestreo y filtros de preprocesado.
+
+### APK Usuario Final
+
+* **Modo Conversación:** Selecciona si la traducción será de LSA a voz o de voz a subtítulos.
+* **No Incluye:** Recolección de Señas ni Entrenamiento del Modelo
+* **Panel de control:** Ajusta volumen, velocidad de TTS y visualización de subtítulos.
+* **Historial:** Accede a transcripciones guardadas y expórtalas en formato `.txt` o compártelas vía mensajería.
+  
 ---
 
 ## 📱 Interfaz y Módulos
