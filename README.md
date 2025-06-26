@@ -118,6 +118,8 @@ SignApp ofrece dos variantes APK con menús adaptados:
 
 Centro de control para acceder a todos los módulos: captura, inferencia, gestión.
 
+![menu principal](./assets/menu_principal.png)
+
 ### Recolectar Seña
 
 Captura vídeo e imágenes, extrae landmarks, asocia etiquetas y metadatos (timestamp, orientación, nivel de iluminación).
