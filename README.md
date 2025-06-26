@@ -55,7 +55,9 @@ El propósito final es eliminar barreras comunicacionales y promover la inclusi�
 
 La arquitectura de SignApp se divide en módulos interconectados:
 
-![Diagrama de Diseño Funcional](./assets/diagrama_funcional.png)
+<p align="center">
+  <img src="./assets/diagrama_funcional.png" alt="Diagrama de Diseño Funcional" />
+</p>
 
 *Diagrama de bloques de los módulos de captura, procesamiento e inferencia.*
 
@@ -70,7 +72,9 @@ La arquitectura de SignApp se divide en módulos interconectados:
 **Ventajas:** autonomía comunicacional, proyección directa, integración ergonómica.
 **Limitaciones:** mayor complejidad, consumo energético y necesidad de equipo auxiliar.
 
-![SignGlasses Model 2](./assets/signglasses_m2.png)
+<p align="center">
+  <img src="./assets/signglasses_m2.png" alt="SignGlasses Model 2" />
+</p>
 
 *Prototipo “SignGlasses Model 2” | Fuente: Elaboración propia - SolidWorks.*
 
@@ -118,7 +122,9 @@ SignApp ofrece dos variantes APK con menús adaptados:
 
 Centro de control para acceder a todos los módulos: captura, inferencia, gestión.
 
-![menu principal](./assets/menu_principal.png)
+<p align="center">
+  <img src="./assets/menu_principal.png" alt="menu principal" />
+</p>
 
 ### Recolectar Seña
 
