@@ -4,6 +4,13 @@
 
 “SignApp” es una aplicación móvil desarrollada en el marco de la Práctica Profesional Supervisada de Ingeniería, que ofrece interpretación bidireccional automática entre la Lengua de Señas Argentina (LSA) y el lenguaje oral, sin requerir hardware adicional. Su objetivo es fomentar la inclusión de la comunidad sorda en diversos ámbitos mediante tecnologías de visión por computadora, inteligencia artificial y procesamiento de señales.
 
+**Autores:** 
+  - Ignacio Ezequiel Gauna 
+  - Juan Pablo Saracino   
+
+**Año:** 2025
+
+
 ---
 
 ## 📝 Descripción
