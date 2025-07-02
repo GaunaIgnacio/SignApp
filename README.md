@@ -13,8 +13,6 @@ SignApp permite:
 * **LSA → Texto/Audio:** Reconoce en tiempo real los gestos de LSA mediante la cámara y los landmarks de MediaPipe, traduce la seña a texto superpuesto y la sintetiza en voz clara para oyentes en <300 ms.
 * **Audio → Texto:** Captura el habla del interlocutor con el micrófono, envía fragmentos de 10–30 ms a un servicio ASR (Google Cloud Speech-to-Text “es-AR”) y muestra subtítulos semitransparentes.
 
-Ambas funciones corren localmente en el dispositivo, garantizando privacidad y operación offline, con opción de exportar modelos y transcripciones.
-
 ---
 
 ## 📌 Motivaciones
@@ -26,7 +24,7 @@ La comunidad sorda en Argentina enfrenta barreras de comunicación debido a la l
 * Trámites administrativos y legales.
 * Comunicación telefónica y social.
 
-Estas carencias generan aislamiento y reducen la autonomía de las personas sordas.
+Estas carencias generan aislamiento, reducen la autonomía de las personas sordas.
 
 ---
 
@@ -58,8 +56,10 @@ La arquitectura de SignApp se divide en módulos interconectados:
 <p align="center">
   <img src="./assets/diagrama_funcional.png" alt="Diagrama de Diseño Funcional" />
 </p>
+<p align="center">
+  <em>Diagrama de bloques de los módulos de captura, procesamiento e inferencia.</em>
+</p>
 
-*Diagrama de bloques de los módulos de captura, procesamiento e inferencia.*
 
 ---
 
@@ -75,8 +75,11 @@ La arquitectura de SignApp se divide en módulos interconectados:
 <p align="center">
   <img src="./assets/signglasses_m2.png" alt="SignGlasses Model 2" width="600"/>
 </p>
+<p align="center">
+  <em>Prototipo “SignGlasses Model 2” | Fuente: Elaboración propia - SolidWorks.</em>
+</p>
 
-*Prototipo “SignGlasses Model 2” | Fuente: Elaboración propia - SolidWorks.*
+
 
 ### SignApp (móvil)
 
@@ -120,78 +123,87 @@ SignApp ofrece dos variantes APK con menús adaptados:
 
 ### Menú Principal
 
-Centro de control para acceder a todos los módulos: captura, inferencia, gestión.
-
 <p align="center">
   <img src="./assets/menu_principal.png" alt="menu principal" width="300"/>
+</p>
+<p align="center">
+  <em>Centro de control para acceder a todos los módulos</em>
 </p>
 
 ### Recolectar Seña
 
-Captura vídeo e imágenes, extrae landmarks, asocia etiquetas y metadatos (timestamp, orientación, nivel de iluminación).
-
 <p align="center">
   <img src="./assets/Gif_recoleccion.gif" alt="Grabar Señas SignApp" width="300"/>
 </p>
+<p align="center">
+  <em>A partir de la captura de vídeo, extrae landmarks, asocia etiquetas y las almacena en "dataset".</em>
+</p>
 
 ### Evaluación
-
-Pipeline cámara→preprocesador→TFLite→texto/audio, con indicador de confianza (0–100 %).
 
 <p align="center">
   <a href="https://youtube.com/shorts/I6j3EasOMrE">
     <img src="./assets/Gif_eval.gif" alt="Ver video de demostración" width="300"/>
   </a>
 </p>
+<p align="center">
+  <em>Pipeline cámara→preprocesador→TFLite→texto/audio, con indicador de confianza (0–100 %).</em>
+</p>
 
 ### Listado de Señas
-
-Listado vertical de etiquetas registradas; versión desarrollador permite eliminación para depuración.
 
 <p align="center">
   <img src="./assets/Listado_señas.png" alt="Listado de Señas" width="300"/>
 </p>
+<p align="center">
+  <em>Listado de etiquetas registradas; versión desarrollador permite eliminación para depuración.</em>
+</p>
 
 ### Entrenar Modelo
-
-Fine-tuning o entrenamiento desde cero de LSTM ligera; exportación a TFLite listo para despliegue.
 
 <p align="center">
   <img src="./assets/entrenamiento.png" alt="entrenamiento del modelo" width="300"/>
 </p>
+<p align="center">
+  <em>Entrenamiento desde cero de LSTM ligera; exportación a TFLite listo para su utilización.</em>
+</p>
 
 ### Exportar Datos
-
-Empaquetado de TFLite y JSON de configuración; actualización automática en APK público.
 
 <p align="center">
   <img src="./assets/exportacion.png" alt="exportar datos" width="300"/>
 </p>
+<p align="center">
+  <em>Empaquetado de TFLite y JSON de configuración; actualización automática en APK público.</em>
+</p>
 
 ### Transcripción
-
-Captura de audio, envío ASR, subtítulos semitransparentes en tiempo real y exportación a `.txt`.
 
 <p align="center">
   <a href="https://youtube.com/shorts/g8oTXzhlv-c?feature=share">
     <img src="./assets/Gif_transc.gif" alt="Ver video de demostración" width="300"/>
   </a>
 </p>
+<p align="center">
+  <em>Captura de audio, envío ASR, subtítulos semitransparentes en tiempo real y exportación a `.txt`.</em>
+</p>
 
 ### Mis Transcripciones
-
-Historial de sesiones con fecha/hora, opciones de reproducción, exportación y eliminación.
 
 <p align="center">
   <img src="./assets/transcripciones.png" alt="transcripciones de la app" width="300"/>
 </p>
+<p align="center">
+  <em>Historial de transcripciones con fecha/hora, opciones de edición, exportación y eliminación.</em>
+</p>
 
 ### Instrucciones de Uso
 
-Incluye guía paso a paso accesible desde el menú principal, explicando cómo operar cada módulo de forma intuitiva.
-
 <p align="center">
   <img src="./assets/instrucciones.png" alt="instrucciones de uso" width="300"/>
+</p>
+<p align="center">
+  <em>Incluye guía paso a paso accesible desde el menú principal, explicando cómo operar cada módulo de forma intuitiva.</em>
 </p>
 
 ---
