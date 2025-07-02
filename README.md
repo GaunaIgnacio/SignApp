@@ -130,6 +130,10 @@ Centro de control para acceder a todos los módulos: captura, inferencia, gesti�
 
 Captura vídeo e imágenes, extrae landmarks, asocia etiquetas y metadatos (timestamp, orientación, nivel de iluminación).
 
+<p align="center">
+  <img src="./assets/grabar_señas.gif" alt="Grabar Señas SignApp" />
+</p>
+
 ### Evaluación
 
 Pipeline cámara→preprocesador→TFLite→texto/audio, con indicador de confianza (0–100 %).
