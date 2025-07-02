@@ -73,7 +73,7 @@ La arquitectura de SignApp se divide en módulos interconectados:
 **Limitaciones:** mayor complejidad, consumo energético y necesidad de equipo auxiliar.
 
 <p align="center">
-  <img src="./assets/signglasses_m2.png" alt="SignGlasses Model 2" />
+  <img src="./assets/signglasses_m2.png" alt="SignGlasses Model 2" width="600"/>
 </p>
 
 *Prototipo “SignGlasses Model 2” | Fuente: Elaboración propia - SolidWorks.*
