@@ -131,7 +131,7 @@ Centro de control para acceder a todos los módulos: captura, inferencia, gesti�
 Captura vídeo e imágenes, extrae landmarks, asocia etiquetas y metadatos (timestamp, orientación, nivel de iluminación).
 
 <p align="center">
-  <img src="./assets/grabar_señas.gif" alt="Grabar Señas SignApp" />
+  <img src="./assets/Grabar_Señas.gif" alt="Grabar Señas SignApp" />
 </p>
 
 ### Evaluación
@@ -140,7 +140,7 @@ Pipeline cámara→preprocesador→TFLite→texto/audio, con indicador de confia
 
 <p align="center">
   <a href="https://youtube.com/shorts/I6j3EasOMrE">
-    <img src="./assets/Gif_Eval.gif" alt="Ver video de demostración" />
+    <img src="./assets/Gif_eval.gif" alt="Ver video de demostración" width="300"/>
   </a>
 </p>
 
@@ -148,25 +148,51 @@ Pipeline cámara→preprocesador→TFLite→texto/audio, con indicador de confia
 
 Listado vertical de etiquetas registradas; versión desarrollador permite eliminación para depuración.
 
+<p align="center">
+  <img src="./assets/Listado_señas.png" alt="Listado de Señas" />
+</p>
+
 ### Entrenar Modelo
 
 Fine-tuning o entrenamiento desde cero de LSTM ligera; exportación a TFLite listo para despliegue.
+
+<p align="center">
+  <img src="./assets/entrenamiento.png" alt="entrenamiento del modelo" />
+</p>
 
 ### Exportar Datos
 
 Empaquetado de TFLite y JSON de configuración; actualización automática en APK público.
 
+<p align="center">
+  <img src="./assets/exportar.png" alt="exportar datos" />
+</p>
+
 ### Transcripción
 
 Captura de audio, envío ASR, subtítulos semitransparentes en tiempo real y exportación a `.txt`.
+
+<p align="center">
+  <a href="https://youtube.com/shorts/g8oTXzhlv-c?feature=share">
+    <img src="./assets/Gif_transc.gif" alt="Ver video de demostración" width="300"/>
+  </a>
+</p>
 
 ### Mis Transcripciones
 
 Historial de sesiones con fecha/hora, opciones de reproducción, exportación y eliminación.
 
+<p align="center">
+  <img src="./assets/transcripciones.png" alt="transcripciones de la app" />
+</p>
+
 ### Instrucciones de Uso
 
 Incluye guía paso a paso accesible desde el menú principal, explicando cómo operar cada módulo de forma intuitiva.
+
+<p align="center">
+  <img src="./assets/instrucciones.png" alt="instrucciones de uso" />
+</p>
 
 ---
 
