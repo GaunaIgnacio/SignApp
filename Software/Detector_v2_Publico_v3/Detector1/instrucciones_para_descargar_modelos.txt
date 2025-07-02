@@ -1,0 +1,18 @@
+INSTRUCCIONES PARA DESCARGAR MODELOS DE MEDIAPIPE
+
+Para que la aplicación funcione correctamente, necesitas descargar el siguiente modelo de MediaPipe y colocarlo en la carpeta assets:
+
+1. Descarga el modelo "hand_landmarker.task" desde:
+   https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task
+
+2. Copia el archivo descargado a la carpeta:
+   app/src/main/assets/
+
+3. Asegúrate de que en la carpeta assets tengas estos archivos:
+   - gesture_recognizer.task (que ya debería estar)
+   - hand_landmarker.task (el que acabas de descargar)
+
+4. Vuelve a compilar y ejecutar la aplicación.
+
+NOTA IMPORTANTE: 
+El error "not found no file with name: hand_detector.tflite" ocurre porque MediaPipe necesita el modelo de detección de manos para funcionar correctamente. Al proporcionar el modelo hand_landmarker.task, se resuelve este problema, ya que este modelo incluye la funcionalidad para detectar manos. 

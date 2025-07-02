@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Detector de Señas</string>
+    <string name="record_gesture">Recolectar Seña</string>
+    <string name="evaluate_gesture">Evaluación</string>
+    <string name="input_gesture_name">Nombre de la seña</string>
+    <string name="start_recording">Iniciar grabación</string>
+    <string name="save_gesture">Guardar seña</string>
+    <string name="start_evaluation">Iniciar evaluación</string>
+    <string name="detected_gesture">Seña detectada: %1$s</string>
+    <string name="reset_detection">Reiniciar detección</string>
+    <string name="permission_camera_rationale">Se necesita acceso a la cámara para detectar gestos</string>
+    <string name="permission_denied">Permiso denegado</string>
+    <string name="permission_request">Esta aplicación necesita acceso a la cámara para detectar gestos con las manos</string>
+    <string name="no_camera">Este dispositivo no tiene cámara</string>
+    <string name="microphone_options">Opciones de micrófono</string>
+    <string name="select_microphone">Seleccionar micrófono</string>
+    <string name="internal_microphone">Micrófono del celular</string>
+    <string name="bluetooth_microphone">Micrófono Bluetooth</string>
+    <string name="using_microphone">Usando: %1$s</string>
+    <string name="cancel">Cancelar</string>
+</resources>
