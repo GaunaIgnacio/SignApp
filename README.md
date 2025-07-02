@@ -123,7 +123,7 @@ SignApp ofrece dos variantes APK con menús adaptados:
 Centro de control para acceder a todos los módulos: captura, inferencia, gestión.
 
 <p align="center">
-  <img src="./assets/menu_principal.png" alt="menu principal" />
+  <img src="./assets/menu_principal.png" alt="menu principal" width="300"/>
 </p>
 
 ### Recolectar Seña
@@ -131,7 +131,7 @@ Centro de control para acceder a todos los módulos: captura, inferencia, gesti�
 Captura vídeo e imágenes, extrae landmarks, asocia etiquetas y metadatos (timestamp, orientación, nivel de iluminación).
 
 <p align="center">
-  <img src="./assets/Grabar_Señas.gif" alt="Grabar Señas SignApp" />
+  <img src="./assets/Gif_recoleccion.gif" alt="Grabar Señas SignApp" width="300"/>
 </p>
 
 ### Evaluación
@@ -149,7 +149,7 @@ Pipeline cámara→preprocesador→TFLite→texto/audio, con indicador de confia
 Listado vertical de etiquetas registradas; versión desarrollador permite eliminación para depuración.
 
 <p align="center">
-  <img src="./assets/Listado_señas.png" alt="Listado de Señas" />
+  <img src="./assets/Listado_señas.png" alt="Listado de Señas" width="300"/>
 </p>
 
 ### Entrenar Modelo
@@ -157,7 +157,7 @@ Listado vertical de etiquetas registradas; versión desarrollador permite elimin
 Fine-tuning o entrenamiento desde cero de LSTM ligera; exportación a TFLite listo para despliegue.
 
 <p align="center">
-  <img src="./assets/entrenamiento.png" alt="entrenamiento del modelo" />
+  <img src="./assets/entrenamiento.png" alt="entrenamiento del modelo" width="300"/>
 </p>
 
 ### Exportar Datos
@@ -165,7 +165,7 @@ Fine-tuning o entrenamiento desde cero de LSTM ligera; exportación a TFLite lis
 Empaquetado de TFLite y JSON de configuración; actualización automática en APK público.
 
 <p align="center">
-  <img src="./assets/exportar.png" alt="exportar datos" />
+  <img src="./assets/exportacion.png" alt="exportar datos" width="300"/>
 </p>
 
 ### Transcripción
@@ -183,7 +183,7 @@ Captura de audio, envío ASR, subtítulos semitransparentes en tiempo real y exp
 Historial de sesiones con fecha/hora, opciones de reproducción, exportación y eliminación.
 
 <p align="center">
-  <img src="./assets/transcripciones.png" alt="transcripciones de la app" />
+  <img src="./assets/transcripciones.png" alt="transcripciones de la app" width="300"/>
 </p>
 
 ### Instrucciones de Uso
@@ -191,7 +191,7 @@ Historial de sesiones con fecha/hora, opciones de reproducción, exportación y 
 Incluye guía paso a paso accesible desde el menú principal, explicando cómo operar cada módulo de forma intuitiva.
 
 <p align="center">
-  <img src="./assets/instrucciones.png" alt="instrucciones de uso" />
+  <img src="./assets/instrucciones.png" alt="instrucciones de uso" width="300"/>
 </p>
 
 ---
