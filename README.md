@@ -134,6 +134,12 @@ Captura vídeo e imágenes, extrae landmarks, asocia etiquetas y metadatos (time
 
 Pipeline cámara→preprocesador→TFLite→texto/audio, con indicador de confianza (0–100 %).
 
+<p align="center">
+  <a href="https://youtube.com/shorts/I6j3EasOMrE">
+    <img src="./assets/preview_evaluacion.png" alt="Ver video de demostración" />
+  </a>
+</p>
+
 ### Listado de Señas
 
 Listado vertical de etiquetas registradas; versión desarrollador permite eliminación para depuración.
