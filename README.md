@@ -140,7 +140,7 @@ Pipeline cámara→preprocesador→TFLite→texto/audio, con indicador de confia
 
 <p align="center">
   <a href="https://youtube.com/shorts/I6j3EasOMrE">
-    <img src="./assets/preview_evaluacion.png" alt="Ver video de demostración" />
+    <img src="./assets/Gif_Eval.gif" alt="Ver video de demostración" />
   </a>
 </p>
 
